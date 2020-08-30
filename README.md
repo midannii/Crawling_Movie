@@ -17,7 +17,7 @@ let's do crawling the *Movietables* of `megabox`, `cgv`, `lottecinema` !
 
 ## how to USE ? 
 
-- craw_cgv(city, date, name='All', moviename = 'All'),
+- `craw_cgv(city, date, name='All', moviename = 'All')`
 
   - 오늘, 내일, 모레의 cgv 시간표 조회 가능
   
@@ -25,7 +25,7 @@ let's do crawling the *Movietables* of `megabox`, `cgv`, `lottecinema` !
   
     - e.g. craw_cgv('서울', '20200830'), craw_cgv('서울', '20200830', '강남'), craw_cgv('서울', '20200830', '대학로', '테넷')
 
-- craw_loci(city, date, name='All', moviename = 'All')
+- `craw_loci(city, date, name='All', moviename = 'All')`
   
   - 오늘, 내일, 모레의 롯데시네마 시간표 조회 가능
   
@@ -33,7 +33,7 @@ let's do crawling the *Movietables* of `megabox`, `cgv`, `lottecinema` !
   
     - e.g. craw_loci('경기', '20200830'), craw_loci('인천', '20200830', '부평'), craw_loci('전라', '20200830', '나주', '테넷')
 
-- craw_mega(city, date, name='All', moviename = 'All')
+- `craw_mega(city, date, name='All', moviename = 'All')`
 
   - 오늘, 내일, 모레의 메가박스 시간표 조회 가능
   
@@ -41,7 +41,7 @@ let's do crawling the *Movietables* of `megabox`, `cgv`, `lottecinema` !
   
     - e.g. craw_mega('제주', '20200830'), craw_mega('제주', '20200830', '서귀포'), craw_mega('부산', '20200830', '해운대', '테넷')
 
-- check_available_movie(city, date, name='All', brand='All', movie='All')
+- `check_available_movie(city, date, name='All', brand='All', movie='All')`
 
   - 입력한 정보를 바탕으로 `craw_cgv`, `craw_loci`, `craw_mega` 를 수행합니다
   
