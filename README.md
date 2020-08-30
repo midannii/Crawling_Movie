@@ -1,5 +1,10 @@
 # Crawling_Movie
 
+## how to Download ?
+
+```
+pip install KoCrawMovie
+```
 
 ### Overviews
 
